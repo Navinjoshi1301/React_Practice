@@ -28,7 +28,7 @@ const Login = () => {
         }}
         placeholder="password"
       />
-      {"  "}
+      {" "}
       <button onClick={handleSubmit}>Submit</button>
     </div>
   );
