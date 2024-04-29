@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import { creatContext, useContext } from "react";
+import { createContext, useContext } from "react";
 
-export const TodoContext = creatContext({
+export const TodoContext = createContext({
   todos: [
     {
       id: 1,
